@@ -294,3 +294,141 @@ body {
     font-size: 20px !important;
   }
   /*Fin Footer*/
+
+  @media only screen and (max-width: 768px) {
+
+    .introduction {
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+    }
+  
+    .image-introduction {
+      width: 90%;
+      height: auto;    
+    }
+  
+    .text-introduction {    
+      font-size: 25px;
+      margin: 15px;
+    }
+  
+    .ii-1,
+    .ii-2 {
+      margin-top: 30px;
+    }
+  
+    .news {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 8px;
+    }
+  
+    .image-news {
+      width: 90%;  
+      height: auto;      
+    }
+  
+    .news-section {
+      height: fit-content;
+    }
+  
+    .title {    
+      text-align: center;
+      font-size: 50px;
+    }
+  
+    .image-beers {
+      width: 150px;
+    }
+  
+    .catering {   
+      margin: 10px;
+      background-size: 100%;
+    }
+  
+    .contact-sec {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: stretch;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .send {
+      margin-top: 20px;
+    }
+  
+    .name, .email {
+      width: 100%;
+      text-align-last: center;
+    }
+  
+    .tel {
+      width: 60%;
+      text-align-last: center;
+    }
+  
+    .text-conditions {    
+      padding-bottom: 20px;
+      text-align: center;
+    }
+  
+    .promotions {    
+      margin: 0px 10px 100px 10px;
+    }
+  
+    .beer {   
+      background-size: 25%;
+    }
+  
+    .hb {   
+      background-size: 50%;
+      background-position-y: 173%;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1460px) {
+  
+    .introduction {
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+    }
+  
+    .image-news {
+      width: 256px;
+      height: 200px;
+    }
+  
+    .news-section {    
+      height: 470px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1460px) {
+  
+    .news-section {
+      height: 510px;
+    }
+  
+    .image-news {
+      width: 180px;
+      height: 130px;
+    }
+  }
+  
+  
+  /*Inicio Under-Construction*/
+  .under-construction {
+    background-image: url(/images/under-con.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: 50%;
+    background-position-y: 0%;
+  }
+  
+  .under {
+    margin: 40% 20%;
+  }
+  /*Fin Under-Construction*/
