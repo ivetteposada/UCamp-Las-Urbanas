@@ -74,6 +74,7 @@ body {
     margin: 30px auto;
     color: yellow;
     font-size: 90px;
+    text-align: center;
   }
   
   .news {
@@ -404,20 +405,9 @@ body {
     .news-section {    
       height: 470px;
     }
-  }
-  
-  @media only screen and (min-width: 769px) and (max-width: 1460px) {
-  
-    .news-section {
-      height: 510px;
-    }
-  
-    .image-news {
-      width: 180px;
-      height: 130px;
-    }
-  }
-  
+
+
+  }  
   
   /*Inicio Under-Construction*/
   .under-construction {
